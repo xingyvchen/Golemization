@@ -2,6 +2,8 @@
 
 一个 Minecraft **26.2 Fabric** 模组：用**铜剑**击中生物后，它会**逐渐转化为傀儡方块**。
 
+> **本仓库是源码。** 想直接下载玩，去这里 → [**下载版本（Releases）**](https://github.com/MoYvhan/Golemization_golem-enchant)
+
 ---
 
 ## 它是怎么运作的
