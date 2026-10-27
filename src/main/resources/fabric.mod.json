@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "copper_enchant",
+	"version": "${version}",
+	"name": "Copper Enchant",
+	"description": "傀儡化附魔 - 用铜剑击中生物，使其逐渐转化为傀儡方块",
+	"authors": [
+		"CopperEnchant"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/copper_enchant/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.copper_enchant.CopperEnchantMod"
+		],
+		"client": [
+			"com.example.copper_enchant.client.CopperEnchantClient"
+		]
+	},
+	"mixins": [
+		"copper-enchant.mixins.json",
+		{
+			"config": "copper-enchant.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

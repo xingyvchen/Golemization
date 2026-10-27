@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,waterlogged=false": { "model": "copper_enchant:block/copper_statue" },
+    "facing=south,waterlogged=false": { "model": "copper_enchant:block/copper_statue" },
+    "facing=east,waterlogged=false": { "model": "copper_enchant:block/copper_statue" },
+    "facing=west,waterlogged=false": { "model": "copper_enchant:block/copper_statue" },
+    "facing=north,waterlogged=true": { "model": "copper_enchant:block/copper_statue" },
+    "facing=south,waterlogged=true": { "model": "copper_enchant:block/copper_statue" },
+    "facing=east,waterlogged=true": { "model": "copper_enchant:block/copper_statue" },
+    "facing=west,waterlogged=true": { "model": "copper_enchant:block/copper_statue" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": {
+    "translate": "enchantment.copper_enchant.copperization"
+  },
+  "supported_items": ["minecraft:copper_sword"],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 64,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 64,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": ["mainhand"],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "copper_enchant:copperization_effect"
+        }
+      }
+    ]
+  }
+}

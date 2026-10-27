@@ -1,0 +1,22 @@
+{
+	"required": true,
+	"package": "com.example.copper_enchant.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+			"LivingEntityRendererMixin",
+			"LivingEntityRendererAccessor",
+			"SpecialModelRenderersMixin",
+			"ModelPartAccessor",
+			"ModelFeatureRendererMixin",
+			"LevelRendererMixin",
+			"MultiPlayerGameModeMixin",
+			"PufferfishRendererAccessor",
+			"HudMixin"
+		],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

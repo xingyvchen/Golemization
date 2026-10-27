@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "copper_enchant:item/template_copper_statue",
+    "model": {
+      "type": "copper_enchant:copper_statue"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "copper_enchant:copper_statue",
+          "functions": [
+            {
+              "function": "minecraft:copy_components",
+              "include": ["minecraft:block_entity_data", "minecraft:custom_name"],
+              "source": "block_entity"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}
